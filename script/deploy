@@ -4,6 +4,6 @@ ssh root@188.166.52.109 <<EOF
  cd /home/cohen/node-app
  git pull
  npm install
- pm2 startup systemd
+ pm2 save
  exit
 EOF
